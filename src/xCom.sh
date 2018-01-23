@@ -4,10 +4,10 @@ DIRECTORY=$1
 
 if ["$DIR" = "" ]; then
 	echo "Provide a valid directory"
-exit 0 else
-	echo "Provide a valid directory"
-	GOOS=android GOARCH=arm go build -o $DIR\_android-arm $DIRECTORY > /dev/null
-	echo -ne "\n\tCompiled for Android ARM"
+	exit 0 
+else
+	#GOOS=android GOARCH=arm go build -o $DIR\_android-arm $DIRECTORY > /dev/null
+	#echo -ne "\n\tCompiled for Android ARM"
 	GOOS=darwin GOARCH=386 go build -o $DIR\_darwin-386 $DIRECTORY > /dev/null
 	echo -ne "\n\tCompiled for Darwin i386"
 	GOOS=darwin GOARCH=amd64 go build -o $DIR\_darwin-amd64 $DIRECTORY > /dev/null
