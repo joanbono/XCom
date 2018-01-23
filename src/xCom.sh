@@ -12,8 +12,8 @@ exit 0 else
 	echo -ne "\n\tCompiled for Darwin i386"
 	GOOS=darwin GOARCH=amd64 go build -o $DIR\_darwin-amd64 $DIRECTORY > /dev/null
 	echo -ne "\n\tCompiled for Darwin amd64"
-	GOOS=darwin GOARCH=arm go build -o $DIR\_darwin-arm $DIRECTORY > /dev/null
-	echo -ne "\n\tCompiled for Darwin ARM"
+	#GOOS=darwin GOARCH=arm go build -o $DIR\_darwin-arm $DIRECTORY > /dev/null
+	#echo -ne "\n\tCompiled for Darwin ARM"
 	GOOS=darwin GOARCH=arm64 go build -o $DIR\_darwin-arm64 $DIRECTORY > /dev/null
 	echo -ne "\n\tCompiled for Darwin ARM64"
 	GOOS=dragonfly GOARCH=amd64 go build -o $DIR\_dragonfly-amd64 $DIRECTORY > /dev/null
