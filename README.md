@@ -19,7 +19,6 @@ jbono@MacBook [~]> bash xcom.sh hello.go
         Compiled for Android ARM
         Compiled for Darwin i386
         Compiled for Darwin amd64
-        Compiled for Darwin ARM64
         Compiled for DragonFly amd64
         Compiled for FreeBSD i386
         Compiled for FreeBSD amd64
