@@ -16,33 +16,34 @@ The output:
 
 ~~~bash
 jbono@MacBook [~]> bash xcom.sh hello.go
-        Compiled for Darwin i386
-        Compiled for Darwin amd64
-        Compiled for DragonFly amd64
-        Compiled for FreeBSD i386
-        Compiled for FreeBSD amd64
-        Compiled for FreeBSD ARM
-        Compiled for Linux i386
-        Compiled for Linux amd64
-        Compiled for Linux ARM
-        Compiled for Linux ARM64
-        Compiled for Linux PPc64
-        Compiled for Linux PPc64le
-        Compiled for Linux MIPS
-        Compiled for Linux MIPSle
-        Compiled for Linux MIPS64
-        Compiled for Linux MIPS64le
-        Compiled for NetBSD i386
-        Compiled for NetBSD amd64
-        Compiled for NetBSD ARM
-        Compiled for OpenBSD i386
-        Compiled for OpenBSD amd64
-        Compiled for OpenBSD ARM
-        Compiled for Plan9 i386
-        Compiled for Plan9 amd64
-        Compiled for Solaris amd64
-        Compiled for Windows x86
-        Compiled for Windows x64
+
+        [+] Compiled for Darwin i386
+        [+] Compiled for Darwin amd64
+        [+] Compiled for DragonFly amd64
+        [+] Compiled for FreeBSD i386
+        [+] Compiled for FreeBSD amd64
+        [+] Compiled for FreeBSD ARM
+        [+] Compiled for Linux i386
+        [+] Compiled for Linux amd64
+        [+] Compiled for Linux ARM
+        [+] Compiled for Linux ARM64
+        [+] Compiled for Linux PPc64
+        [+] Compiled for Linux PPc64le
+        [+] Compiled for Linux MIPS
+        [+] Compiled for Linux MIPSle
+        [+] Compiled for Linux MIPS64
+        [+] Compiled for Linux MIPS64le
+        [+] Compiled for NetBSD i386
+        [+] Compiled for NetBSD amd64
+        [+] Compiled for NetBSD ARM
+        [+] Compiled for OpenBSD i386
+        [+] Compiled for OpenBSD amd64
+        [+] Compiled for OpenBSD ARM
+        [+] Compiled for Plan9 i386
+        [+] Compiled for Plan9 amd64
+        [+] Compiled for Solaris amd64
+        [+] Compiled for Windows x86
+        [+] Compiled for Windows x64
 ~~~
 
 And in the folder:
